@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="jabatanUTS">
+        <item>Direktur</item>
+        <item>Wakil Direktur</item>
+        <item>Sekretaris</item>
+        <item>Manager</item>
+        <item>Supervisor</item>
+    </string-array>
+
+    <string-array name="jabatanKlmpk">
+        <item>Direktur</item>
+        <item>Wakil Direktur</item>
+        <item>Top Manager</item>
+        <item>Sekretaris Top Manager</item>
+        <item>Midle Manager</item>
+        <item>Manager Operasional</item>
+        <item>Supervisor</item>
+        <item>Karyawan Biasa</item>
+    </string-array>
+
+    <string-array name="statusUTS">
+        <item>Menikah</item>
+        <item>Belum Menikah</item>
+    </string-array>
+
+    <string-array name="statusKlmpk">
+        <item>Menikah</item>
+        <item>Single</item>
+        <item>Duda</item>
+        <item>Janda</item>
+    </string-array>
+
+    <string-array name="regtype">
+        <item>ACTIVE</item>
+        <item>FREE</item>
+        <item>TRIAL</item>
+    </string-array>
+
+    <string-array name="systemtype">
+        <item>PERKEBUNAN</item>
+        <item>KOPERASI</item>
+        <item>KLINIK</item>
+    </string-array>
+
+    <string-array name="activation">
+        <item>0 - ACTIVE</item>
+        <item>1 - INACTIVE</item>
+    </string-array>
+
+    <string-array name="disition_0_1">
+        <item>0 - NO</item>
+        <item>1 - YES</item>
+    </string-array>
+
+    <string-array name="menuview">
+        <item>SHOW</item>
+        <item>HIDE</item>
+    </string-array>
+
+    <string-array name="menutype">
+        <item>F - FORM INPUT</item>
+        <item>S - SETUP</item>
+        <item>R - REPORT</item>
+    </string-array>
+
+    <string-array name="defaulsetting">
+        <item>DEFAULT</item>
+        <item>SETTING</item>
+    </string-array>
+
+    <string-array name="blocktype">
+        <item>AC - Auto Complete</item>
+        <item>BTN - Button</item>
+        <item>CB - Check Box</item>
+        <item>CV - Card View</item>
+        <item>CL - Constraint Layout</item>
+        <item>ET - Edit Text</item>
+        <item>IMG - Image View</item>
+        <item>IMB - Image Button</item>
+        <item>LL - Linear Layout</item>
+        <item>LY - Text Input Layout</item>
+        <item>LV - List View</item>
+        <item>MAP - Map View</item>
+        <item>RV - Recycler View</item>
+        <item>TL - Tab Layout</item>
+        <item>TV - Text View</item>
+        <item>SV - Scroll View</item>
+        <item>SW - Switch</item>
+    </string-array>
+
+    <string-array name="formattext">
+        <item>TEXT</item>
+        <item>CAPITAL</item>
+        <item>PASSWORD</item>
+    </string-array>
+
+    <string-array name="styletext">
+        <item>CENTER</item>
+        <item>CENTERTOP</item>
+        <item>CENTERBOTTOM</item>
+        <item>LEFTTOP</item>
+        <item>LEFTCENTER</item>
+        <item>LEFTBOTTOM</item>
+        <item>RIGHTTOP</item>
+        <item>RIGHTCENTER</item>
+        <item>RIGHTBOTTOM</item>
+    </string-array>
+
+    <string-array name="styletextbutton">
+        <item>PRESS_0</item>
+        <item>PRESS_20</item>
+        <item>PRESS_20_BOTTOM_LEFT</item>
+        <item>PRESS_20_BOTTOM_RIGHT</item>
+        <item>PRESS_20_BOTTOM</item>
+        <item>PRESS_20_TOP</item>
+        <item>PRESS_30</item>
+        <item>PRESS_30_2</item>
+        <item>PRESS_30_LEFT</item>
+        <item>PRESS_30_RIGHT</item>
+    </string-array>
+
+    <string-array name="sizeText">
+        <item>12</item>
+        <item>14</item>
+        <item>16</item>
+        <item>18</item>
+        <item>20</item>
+        <item>22</item>
+        <item>24</item>
+        <item>26</item>
+        <item>28</item>
+        <item>30</item>
+        <item>32</item>
+    </string-array>
+
+</resources>

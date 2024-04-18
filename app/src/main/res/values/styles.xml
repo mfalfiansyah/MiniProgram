@@ -1,0 +1,203 @@
+<resources>
+    <style name="roundedCornersImageView" parent="">
+        <item name="backgroundTint">#ffffff</item>
+        <item name="tint">#ffffff</item>
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">20dp</item>
+    </style>
+
+    <style name="roundedCorners10dp" parent="">
+        <item name="backgroundTint">#ffffff</item>
+        <item name="tint">#ffffff</item>
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">10dp</item>
+    </style>
+
+    <style name="roundedCorners15dp" parent="">
+        <item name="backgroundTint">#ffffff</item>
+        <item name="tint">#ffffff</item>
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">15dp</item>
+    </style>
+
+    <style name="roundedCorners20dp" parent="">
+        <item name="backgroundTint">#ffffff</item>
+        <item name="tint">#ffffff</item>
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">20dp</item>
+    </style>
+
+    <style name="roundedCorners5dp" parent="">
+        <item name="backgroundTint">#ffffff</item>
+        <item name="tint">#ffffff</item>
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">5dp</item>
+    </style>
+
+    <style name="roundedCornersring" parent="">
+        <item name="backgroundTint">#ffffff</item>
+        <item name="tint">#ffffff</item>
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">30dp</item>
+    </style>
+
+    <style name="roundedCornersBg" parent="">
+        <item name="backgroundTint">#ffffff</item>
+        <item name="tint">#ffffff</item>
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">10dp</item>
+    </style>
+
+    <style name="ShapeAppearanceOverlay.MaterialComponents.Button.TopRounded" parent="">
+        <item name="cornerSizeTopRight">10dp</item>
+        <item name="cornerSizeTopLeft">10dp</item>
+    </style>
+
+    <style name="ShapeAppearanceOverlay.MaterialComponents.Button.BottomRounded" parent="">
+        <item name="cornerSizeBottomRight">10dp</item>
+        <item name="cornerSizeBottomLeft">10dp</item>
+    </style>
+
+    <style name="ShapeAppearanceOverlay.MaterialComponents.Button.BottomLeftRounder" parent="">
+        <item name="cornerSizeBottomLeft">10dp</item>
+    </style>
+
+    <style name="ShapeAppearanceOverlay.MaterialComponents.Button.BottomRightRounded" parent="">
+        <item name="cornerSizeBottomRight">10dp</item>
+    </style>
+
+    <style name="styleDialog" parent="Theme.AppCompat.Light.Dialog.Alert" >
+        <item name="android:windowAnimationStyle" >@android:style/Animation.Dialog</item>
+        <item name="android:textColorPrimary">@android:color/white</item>
+    </style>
+
+    //style for Header
+    <style name="styleHeaderMenu" >
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+    </style>
+
+    //style for Header
+    <style name="styleTitleMenu" >
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:layout_marginStart">16dp</item>
+        <item name="android:layout_marginBottom">16dp</item>
+        <item name="android:fontFamily">@font/roboto_bold</item>
+        <item name="android:textSize">22sp</item>
+    </style>
+
+    //style for editText
+    <style name="styleEditText" >
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:minHeight">48dp</item>
+        <item name="android:paddingStart">16dp</item>
+        <item name="android:paddingEnd">8dp</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:background">@drawable/border_transparan</item>
+        <item name="android:textColor">@color/colorText</item>
+    </style>
+
+    //style for editText
+    <style name="styleEditText2" >
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:minHeight">48dp</item>
+        <item name="android:paddingStart">16dp</item>
+        <item name="android:paddingEnd">8dp</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/colorText</item>
+        <item name="elevation">8dp</item>
+    </style>
+
+    <style name="styleEditText3" >
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:minHeight">54dp</item>
+        <item name="android:paddingStart">16dp</item>
+        <item name="android:paddingEnd">8dp</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/colorText</item>
+        <item name="elevation">8dp</item>
+    </style>
+
+    //style for autoComplete
+    <style name="styleAutoComplete" >
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:minHeight">48dp</item>
+        <item name="android:paddingStart">16dp</item>
+        <item name="android:paddingEnd">8dp</item>
+        <item name="android:paddingTop">16dp</item>
+        <item name="android:textSize">14sp</item>
+        <item name="boxBackgroundColor">@color/white</item>
+        <item name="android:background">@drawable/border_transparan</item>
+        <item name="android:textColor">@color/colorText</item>
+        <item name="elevation">8dp</item>
+    </style>
+
+    //style for textInputLayout
+    <style name="styleTextInputLayout">
+        <item name="android:layout_height">55dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:minHeight">48dp</item>
+        <item name="android:layout_marginStart">8dp</item>
+        <item name="android:layout_marginEnd">8dp</item>
+        <item name="android:layout_marginTop">4dp</item>
+        <item name="elevation">8dp</item>
+        <item name="android:background">@drawable/border_transparan</item>
+        <item name="android:backgroundTint">@null</item>
+    </style>
+
+    //style for textInputLayout2
+    <style name="styleTextInputLayout2">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:minHeight">48dp</item>
+        <item name="android:layout_marginStart">8dp</item>
+        <item name="android:layout_marginEnd">8dp</item>
+        <item name="android:layout_marginTop">4dp</item>
+        <item name="elevation">8dp</item>
+        <item name="boxBackgroundColor">@color/white</item>
+        <item name="android:backgroundTint">@null</item>
+    </style>
+
+    //style for button Submit
+    <style name="styleButtonSubmit" >
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="icon">@drawable/ic_xml_save</item>
+        <item name="android:background">@drawable/style_press_30</item>
+        <item name="android:layout_marginEnd">16dp</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:fontFamily">@font/roboto_bold</item>
+    </style>
+
+    //style for button
+    <style name="styleButton" >
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/style_press_30</item>
+        <item name="android:layout_marginEnd">16dp</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:fontFamily">@font/roboto_bold</item>
+    </style>
+
+    <style name="Dlg_1Button">
+        <item name="cornerSizeBottomRight">20dp</item>
+        <item name="cornerSizeBottomLeft">20dp</item>
+    </style>
+
+    <style name="Dlg_ButtonLeft">
+        <item name="cornerSizeBottomLeft">20dp</item>
+    </style>
+
+    <style name="Dlg_1ButtonRight">
+        <item name="cornerSizeBottomRight">20dp</item>
+    </style>
+
+
+
+</resources>

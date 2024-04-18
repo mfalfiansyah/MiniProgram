@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Mini Program</string>
+    <string name="URL_API"><![CDATA[https://api.openweathermap.org/data/2.5/forecast?q=Jakarta&appid=d5e2bab4f16e9d814d829ae4d3c2316b]]></string>
+</resources>

@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Tampilan">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:fontFamily="@font/roboto_bold"
+            android:text="Tampilan Data"
+            android:textSize="22sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="HardcodedText" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout">
+
+        <TextView
+            android:id="@+id/TD_TV_TEXT1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/border_style_transparan"
+            android:fontFamily="@font/roboto_bold"
+            android:gravity="center_vertical|center"
+            android:text="No."
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            android:visibility="visible"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/TD_TV_TEXT2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/border_style_transparan"
+            android:fontFamily="@font/roboto_bold"
+            android:gravity="center_vertical|center"
+            android:text="NIP"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            android:visibility="visible"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/TD_TV_TEXT3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/border_style_transparan"
+            android:fontFamily="@font/roboto_bold"
+            android:gravity="center_vertical|center"
+            android:text="Nama"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            android:visibility="visible"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/TD_TV_TEXT4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/border_style_transparan"
+            android:clickable="false"
+            android:fontFamily="@font/roboto_bold"
+            android:gravity="center_vertical|center"
+            android:text="Status"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            android:visibility="visible"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/TD_TV_TEXT5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/border_style_transparan"
+            android:clickable="false"
+            android:fontFamily="@font/roboto_bold"
+            android:gravity="center_vertical|center"
+            android:text="Jumlah Anak"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            android:visibility="visible"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/TD_TV_TEXT6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/border_style_transparan"
+            android:clickable="false"
+            android:fontFamily="@font/roboto_bold"
+            android:gravity="center_vertical|center"
+            android:text="Jabatan"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            android:visibility="visible"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/TD_TV_TEXT7"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/border_style_transparan"
+            android:clickable="false"
+            android:fontFamily="@font/roboto_bold"
+            android:gravity="center_vertical|center"
+            android:text="Gaji"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            android:visibility="visible"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/TD_TV_TEXT8"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/border_style_transparan"
+            android:clickable="false"
+            android:fontFamily="@font/roboto_bold"
+            android:gravity="center_vertical|center"
+            android:text="Masa\nKerja"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            android:visibility="visible"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/TD_TV_TEXT9"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/border_style_transparan"
+            android:clickable="false"
+            android:fontFamily="@font/roboto_bold"
+            android:gravity="center_vertical|center"
+            android:text="Bonus\nAkhir Thn"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            android:visibility="visible"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/TD_TV_TEXT10"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/border_style_transparan"
+            android:clickable="false"
+            android:fontFamily="@font/roboto_bold"
+            android:gravity="center_vertical|center"
+            android:text="Budget"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            android:visibility="visible"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/TD_TV_TEXT11"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/border_style_transparan"
+            android:clickable="false"
+            android:fontFamily="@font/roboto_bold"
+            android:gravity="center_vertical|center"
+            android:text="Gaji\nBersih"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            android:visibility="visible"
+            tools:ignore="HardcodedText" />
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/RV_LIST"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/TD_TV1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
+    <TextView
+        android:id="@+id/TD_TV1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="s"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/TD_TV2"
+        app:layout_constraintEnd_toEndOf="@+id/TD_TV2"
+        app:layout_constraintStart_toStartOf="@+id/TD_TV2" />
+
+    <TextView
+        android:id="@+id/TD_TV2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="s"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/TD_TV3"
+        app:layout_constraintEnd_toEndOf="@+id/TD_TV3"
+        app:layout_constraintStart_toStartOf="@+id/TD_TV3" />
+
+    <TextView
+        android:id="@+id/TD_TV3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="s"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/TD_TV4"
+        app:layout_constraintEnd_toEndOf="@+id/TD_TV4"
+        app:layout_constraintStart_toStartOf="@+id/TD_TV4" />
+
+    <TextView
+        android:id="@+id/TD_TV4"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:text="s"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/TD_TV5"
+        app:layout_constraintEnd_toEndOf="@+id/TD_TV5"
+        app:layout_constraintStart_toStartOf="@+id/TD_TV5" />
+
+    <TextView
+        android:id="@+id/TD_TV5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="24dp"
+        android:text="a"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/BTN_BP"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/BTN_BP"
+        style="@style/styleButton"
+        app:backgroundTint="@null"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="8dp"
+        android:text="Bilangan Prima"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="HardcodedText" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

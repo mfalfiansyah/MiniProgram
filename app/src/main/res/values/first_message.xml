@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="firstmessage">
+        <!--General -->
+        <item>MSG01#,#msg_loading#,#Loading Process#,#Menyiapkan System.\nHarap Tunggu…#,#Setting up system.\nPlease wait…#,##,#</item>
+        <item>MSG01#,#msg_save#,#Save Form#,#Apakah anda ingin menyimpan perubahan?#,#Do you want to save the changes?#,##,#</item>
+        <item>MSG01#,#msg_mandatory#,#Mandatory Field#,#Tidak Boleh Kosong.#,#Is Required.#,##,#</item>
+        <item>MSG01#,#msg_login_offline#,#Login Offline#,#Login dengan mode Offline#,#Login Offline mode#,##,#</item>
+        <item>MSG01#,#msg_logout#,#Logout#,#Apakah anda yakin ingin keluar?#,#Are you sure you want to Logout?#,##,#</item>
+        <item>MSG01#,#msg_update_available#,#Status Update system#,#Update System Tersedia#,#System Updates Available#,##,#</item>
+        <item>MSG01#,#msg_req_register#,#Permintaan Registrasi#,#Apakah Anda ingin mengirimkan permintaan registrasi?\n\n(Kode OTP akan dikirimkan ke Nomor Telp Whatsapp yang terdaftar, pastikan nomor telp aktif)#,#Do you want to submit a request Registration?\n\n(OTP code will be sent to the registered Whatsapp Phone Number, make sure the telp number is active)#,##,#</item>
+        <item>MSG01#,#msg_delete#,#Hapus Item#,#Apakah anda yakin ingin menghapus?#,#Are you sure you want to delete?#,##,#</item>
+        <item>MSG01#,#msg_edit#,#Edit Item#,#Apakah anda ingin mengubah data?#,#Do you want to change the data?#,##,#</item>
+        <item>MSG01#,#msg_success_submit#,#Success Submit#,#Berhasil menyimpan data.#,#Successfully saved data.#,##,#</item>
+
+        <!--System -->
+        <item>MSG02#,#msg_sync_system#,#Synchronize System#,#Sinkronisasi Sistem#,#Synchronize System#,##,#</item>
+        <item>MSG02#,#msg_system_sync#,#Synchronize System#,#Sinkronisasi Sistem#,#Synchronize System#,##,#</item>
+        <item>MSG02#,#msg_sync_fail#,#Sync Server Failed#,#Gagal Sinkronisasi dengan Server\nSilahkan cek koneksi internet anda.#,#Failed to Sync with Server\nPlease check your internet connection.#,##,#</item>
+        <item>MSG02#,#msg_system_fail#,#System Failed#,#System Key tidak ditemukan, silahkan hubungi Admin.#,#System Key not found, please contact Admin.#,##,#</item>
+        <item>MSG02#,#msg_system_key#,#System Key#,#Masukan System Key#,#Please Input System Key#,##,#</item>
+
+        <!--User -->
+        <item>MSG03#,#msg_user_fail#,#User Failed#,#Data User inactive/tidak ditemukan/belum diregistrasi, silahkan hubungi Admin.#,#User Data is inactive/not found/no register, please contact Admin.#,##,#</item>
+
+        <!--Password -->
+        <item>MSG04#,#msg_pass_fail#,#Password Fail#,#Kata sandi tidak sesuai, silahkan ulangi.#,#Password does not match, please try again.#,##,#</item>
+        <item>MSG04#,#msg_pass_forgot#,#Lupa Password#,#Lupa Password#,#Forgot Password#,##,#</item>
+        <item>MSG04#,#msg_req_pass_reset#,#Permintaan Reset Password#,#Apakah Anda ingin mengirimkan permintaan reset Password?\n\n(Kode OTP akan dikirimkan ke Nomor Telp Whatsapp yang terdaftar, pastikan nomor telp aktif)#,#Do you want to submit a request to reset password?\n\n(OTP code will be sent to the registered Whatsapp Phone Number, make sure the telp number is active)#,##,#</item>
+        <item>MSG04#,#msg_success_pass#,#Success Create Password#,#Berhasil membuat kata sandi#,#Successfully created a password#,##,#</item>
+        <item>MSG04#,#msg_buat_pass#,#Buat Password#,#Silahkan masukan kode OTP dan buat password anda!#,#Please enter the OTP code and create your password!#,##,#</item>
+
+        <!--Button -->
+        <item>MSG05#,#msg_btn_ok#,#Tombol Ya#,#Ya#,#OK#,##,#</item>
+        <item>MSG05#,#msg_btn_no#,#Tombol Tidak#,#Tidak#,#No#,##,#</item>
+
+        <!--GPS/Location -->
+        <item>MSG06#,#msg_check_location#,#Enable Location#,#Izinkan dan Aktifkan Mengakses Lokasi Perangkat ini?#,#Allow and Enable Accessing this Devices Location?#,##,#</item>
+        <item>MSG06#,#msg_fake_gps#,#Detect Fake GPS#,#System Mendeteksi Penggunaan Fake GPS, Silahkan Menonaktifkan Aplikasi Fake GPS#,#System detects the use of fake GPS, please disable the fake GPS application#,##,#</item>
+        <item>MSG06#,#msg_pointing_waiting#,#Proses Pointing#,#Mohon selesaikan proses pointing!#,#Please complete the pointing process!#,##,#</item>
+    </string-array>
+</resources>
