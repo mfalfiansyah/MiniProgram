@@ -33,9 +33,9 @@
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
-        android:icon="@mipmap/github_icon"
+        android:icon="@mipmap/git_purple"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/github_icon"
+        android:roundIcon="@mipmap/git_purple"
         android:supportsRtl="true"
         android:theme="@style/Theme.UTS_ALGORITMA.NoActionBar"
         tools:targetApi="31">

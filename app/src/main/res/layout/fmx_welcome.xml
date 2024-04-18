@@ -20,11 +20,11 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
-        <ImageView
+        <com.google.android.material.imageview.ShapeableImageView
             android:id="@+id/WELCOME_IMG_SYSTEM"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@mipmap/logo_ueu"
+            android:background="@mipmap/git_purple"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
@@ -47,9 +47,9 @@
             android:id="@+id/WELCOME_TV_MOTO"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="48dp"
-            android:fontFamily="sans-serif-smallcaps"
-            android:text="Saya bingung kalo pake C++"
+            android:layout_marginTop="8dp"
+            android:fontFamily="sans-serif"
+            android:text="hecho en casa"
             android:textAlignment="center"
             android:textSize="20sp"
             android:textStyle="bold|italic"
